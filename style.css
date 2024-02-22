@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.inputEntrada, .btn {
+    margin: 12px 2px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: rgb(6, 183, 6);
+    color: white;
+    cursor: pointer;
+}
+
+ul li {
+    font-size: 18px;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.riscar-linha {
+    text-decoration: line-through;
+}
